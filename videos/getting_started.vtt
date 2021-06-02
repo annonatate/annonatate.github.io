@@ -1,0 +1,35 @@
+WEBVTT
+editor: human
+
+00:00:00.000 --> 00:00:02.000
+Click on the login link.
+
+00:00:02.000 --> 00:00:09.000
+Enter your GitHub username and password.
+
+00:00:09.000 --> 00:00:15.000
+Enter your two-factor code if you have that enabled on your GitHub account.
+
+00:00:15.000 --> 00:00:19.000
+You will be redirected back the the application.
+
+00:00:19.001 --> 00:00:25.000
+This page appears when you log in for the first time.
+
+00:00:25.001 --> 00:00:30.000
+This page should not appear again after you login for the first time.
+
+00:00:30.001 --> 00:00:33.000
+It can take a full minute or two for the site to log you in the first time you log in.
+
+00:00:33.000 --> 00:00:36.000
+On your second log in, it should immediately log you in.
+
+00:00:36.000 --> 00:00:45.000
+If this page is still here after a minute try refreshing the page.
+
+00:00:45.000 --> 00:00:50.000
+If the site still hasn't loaded a minute or two after refresh, view the troubleshooting steps on the page below.
+
+00:00:50.000 --> 00:01:05.001
+To see the log in finish skip to 1:07.
