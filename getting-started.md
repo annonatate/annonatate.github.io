@@ -5,9 +5,9 @@ layout: default
 
 # Getting started walkthrough
 
-<video id="video" controls preload="metadata">
+<video id="video" controls preload="metadata" width="100%">
    <source src="{{site.baseurl}}/videos/getting_started.mp4" type="video/mp4">
-   <track label="Español" kind="subtitles" srclang="es" src="{{site.baseurl}}/videos/getting_started.vtt">
+   <track label="English" kind="subtitles" srclang="en" src="{{site.baseurl}}/videos/getting_started.vtt">
 </video>
 
 # Troubleshooting
