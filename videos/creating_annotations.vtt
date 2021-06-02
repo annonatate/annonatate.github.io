@@ -1,0 +1,48 @@
+WEBVTT
+editor: human
+
+00:00:00.000 --> 00:00:05.000
+There are some default IIIF manifests and images preloaded. 
+
+00:00:05.001 --> 00:00:08.000
+This is an example of a manifest. Manifests hold multiple tiled (IIIF) images in one file. 
+
+00:00:08.000 --> 00:00:12.000
+To annotate those images click on the appropriate thumbnail.
+
+00:00:12.000 --> 00:00:20.000
+This is an example of an JPG image. Non-tiled images do not zoom as smoothly as tiled images but they still work.
+
+00:00:20.001 --> 00:00:25.000
+The application works with png, svg, bmp, and jpg images. Other images types may work but have not been tested.
+
+00:00:25.001 --> 00:00:30.000
+When creating annotations make sure to hold down the Shift key and drag, otherwise the annotation will not be created.
+
+00:00:30.001 --> 00:00:35.000
+
+
+00:00:35.000 --> 00:00:40.000
+
+
+00:00:40.000 --> 00:00:45.000
+
+
+00:00:45.000 --> 00:00:50.000
+This is an example of a IIIF tiled image.
+
+00:00:50.000 --> 00:00:55.000
+You can create polygon shapes as well as regular rectangular annotations.
+
+00:00:55.000 --> 00:01:00.000
+
+
+00:01:00.000 --> 00:01:05.000
+
+
+00:01:05.001 --> 00:01:10.000
+
+
+00:01:10.001 --> 00:01:15.000
+To finish a polygon shape double click.
+
