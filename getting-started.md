@@ -12,7 +12,7 @@ layout: default
 
 # Troubleshooting
 
-If you are unable to log in properly try one of the following steps to get the application working. If both steps below don't work please [https://github.com/annonatate/annonatate/issues/new](leave a note).
+If you are unable to log in properly try one of the following steps to get the application working. If both steps below don't work please [leave a note](https://github.com/annonatate/annonatate/issues/new).
 
 ## Delete repository
 
