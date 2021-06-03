@@ -1,0 +1,23 @@
+WEBVTT
+editor: human
+
+00:00:00.000 --> 00:00:05.000
+Click on Annotations tab.
+
+00:00:05.001 --> 00:00:10.000
+Immediately after creating the annotations the annotation will take a minute to render a url.
+
+00:00:10.000 --> 00:00:15.000
+By default the annotations will be grouped by image. If you toggle single annotation the annotations will each get their own record and URL.
+
+00:00:20.001 --> 00:00:25.000
+You can also view the annotations in an interactive storyboard view. 
+
+00:00:40.000 --> 00:00:45.000
+When the annotations are grouped by image there will be one storyboard for each annotated image.
+
+00:00:55.000 --> 00:01:00.000
+You can also search your annotations by keyword or facets in the sideboard.
+
+00:01:00.000 --> 00:01:03.110
+Each single annotation includes a link to the annotation grouped by image view.
