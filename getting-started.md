@@ -11,6 +11,9 @@ nav_order: 2
    <track label="English" kind="subtitles" srclang="en" src="{{site.baseurl}}/videos/getting_started.vtt">
 </video>
 
+# Keep in mind
+* The first log in takes the most amount of time. We are quite literally building an entire site on your first log in. After you have successfully logined in the first time the log in should be immediate every time after unless you delete your repository.
+
 # Troubleshooting
 
 If you are unable to log in properly try one of the following steps to get the application working. If both steps below don't work please [leave a note](https://github.com/annonatate/annonatate/issues/new).
