@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 ---
 
-# Getting started walkthrough
+# Viewing annotations walkthrough
 
 <video id="video" controls preload="metadata" width="100%">
    <source src="{{site.baseurl}}/videos/viewing_annotations.mp4" type="video/mp4">
