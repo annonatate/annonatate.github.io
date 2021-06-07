@@ -12,7 +12,7 @@ There is a dropdown of purposes. They don't currenlty do much, but in the future
 By default `commenting` is the choosen "purpose" and should cover most things. A list of each purpose from the dropdown is listed below with a corresponding description.
 
 
-Definitions come from: (https://www.w3.org/TR/annotation-model/#motivation-and-purpose)[https://www.w3.org/TR/annotation-model/#motivation-and-purpose).
+Definitions come from: (https://www.w3.org/TR/annotation-model/#motivation-and-purpose)[https://www.w3.org/TR/annotation-model/#motivation-and-purpose].
 
 * assessing: The motivation for when the user intends to assess the target resource in some way, rather than simply make a comment about it. For example to write a review or assessment of a book, assess the quality of a dataset, or provide an assessment of a student's work.
 * bookmarking: The motivation for when the user intends to create a bookmark to the Target or part thereof. For example an Annotation that bookmarks the point in a text where the reader finished reading.
