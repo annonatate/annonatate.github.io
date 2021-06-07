@@ -10,5 +10,3 @@ nav_order: 7
 </video>
 
 ![Collections screenshot]({{site.baseurl}}/collection.png)
-# Tips
-*
