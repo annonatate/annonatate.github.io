@@ -1,5 +1,5 @@
 ---
-title: Rename repo
+title: Rename workspace
 layout: default
 nav_order: 10
 ---
