@@ -11,6 +11,11 @@ nav_order: 8
    <source src="{{site.baseurl}}/videos/profile.mp4" type="video/mp4">
 </video>
 
+## Remove user access / Rename workspaces
+<video id="video" controls preload="metadata" width="100%">
+   <source src="{{site.baseurl}}/videos/profile2.mp4" type="video/mp4">
+</video>
+
 # Tips
 * Read Only access to a workspace only works when you are logged in with a organization account. If you aren't sure if you are logged in via an GitHub organization account, the answer is you probably aren't.
 * Read Only gives the same access as Read/Write if you are logged in with a GitHub user account.
