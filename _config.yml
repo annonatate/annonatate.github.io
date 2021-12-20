@@ -1,3 +1,32 @@
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 title: Annonatate Help
+collections: 
+  iiifproviders:
+    layout: "default"
+    output: true
+plugins:
+  - jekyll-lunr-js-custom-search
+lunr_settings:
+  collections: [iiifproviders]
+  atozsortfield: institution
+  fuzzysearchfields: [institution, website, subjects]
+  displayfields:
+    - {field: institution, headerfield: true, highlight: false}
+    - {field: website,label: "URL", highlight: false, urlfield: true}
+    - {field: subjects, label: "Subject", highlight: false}
+    - {field: notes,label: "note", highlight: false}
+  fields:
+  - boost: 10
+    jekyllfields: [institution]
+    searchfield: institution
+  - boost: 10
+    jekyllfields: [website]
+    searchfield: website
+  - boost: 10
+    jekyllfields: [subjects]
+    searchfield: subjects
+    facetfield: true
+  - boost: 10
+    jekyllfields: [notes]
+    searchfield: notes
