@@ -1,12 +1,11 @@
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+
 title: Annonatate Help
 collections: 
   iiifproviders:
     layout: "default"
     output: true
-plugins:
-  - jekyll-lunr-js-custom-search
 lunr_settings:
   collections: [iiifproviders]
   atozsortfield: institution
