@@ -14,6 +14,8 @@ nav_order: 11
 * TOC
 {:toc}
 
+## Please feel free to contribute to this page by opening an [issue](https://github.com/dnoneill/annotate/issues/new?assignees=dnoneill&labels=&template=add-resource-to--where-to-find-iiif-.md&title=)
+
 # Tools
 * [https://github.com/2SC1815J/open-in-iiif-viewer](https://github.com/2SC1815J/open-in-iiif-viewer) is "a Firefox/Chrome extension to open IIIF manifest link in your favorite IIIF viewer".
 
@@ -48,8 +50,7 @@ Additionally a number of Wikidata entries have a manifest listed in the entry. T
 
 Search any image in ContentDM. [https://researchworks.oclc.org/iiif-explorer/](https://researchworks.oclc.org/iiif-explorer/)
 
-# Search Institutions
-## Please feel free to contribute institutions to this page by opening an [issue](https://github.com/annonatate/annonatate-help/issues/new?assignees=&labels=&template=where-to-find-iiif.md&title=)
+# Search Academic repositories
 
 <form role="search" id="search">
 <div class="search-control">
@@ -92,7 +93,7 @@ Search any image in ContentDM. [https://researchworks.oclc.org/iiif-explorer/](h
       if (!queryString){
         document.getElementById('search').submit();
       } else if (queryString != '?query=&sort=atoz'){
-        var addTo = window.location.href.indexOf('#search-academic-repositories') == -1 ? '#search-academic-repositories' : '';
+        var addTo = window.location.href.indexOf('#search-institutions') == -1 ? '#search-institutions' : '';
         if (queryString.indexOf('query') == -1){
           newUrl = newUrl.replace('?', '?query=&');
         }
