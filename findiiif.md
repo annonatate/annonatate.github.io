@@ -8,7 +8,6 @@ nav_order: 11
 <script src="{{site.baseurl}}/js/custom-search.js"></script>
 
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/custom-search.css">
-<a href="https://dnoneill.github.io/annotate/getIIIFresources/">List of IIIF resources</a>
 
 # {{page.title}}
 
@@ -23,7 +22,7 @@ nav_order: 11
 
 # Internet Archive
 
-Images in the Internet Archive accessible through a IIIF endpoint. Instructions are located here: [https://medium.com/@aeschylus/use-internet-archives-iiif-endpoint-to-unlock-your-images-potential-9b0a3efa5b55](https://medium.com/@aeschylus/use-internet-archives-iiif-endpoint-to-unlock-your-images-potential-9b0a3efa5b55)
+Images in the Internet Archive accessible through a IIIF endpoint. Instructions are located here: [https://medium.com/@aeschylus/use-internet-archives-iiif-endpoint-to-unlock-your-images-potential-9b0a3efa5b55](https://medium.com/@aeschylus/use-internet-archives-iiif-endpoint-to-unlock-your-images-potential-9b0a3efa5b55) or via [IIIF Guides](https://iiif.io/guides/guides/archive.org/).
 
 # [WikiData](https://commons.wikimedia.org/wiki/Commons:International_Image_Interoperability_Framework)
 
@@ -88,31 +87,23 @@ Search any image in ContentDM. [https://researchworks.oclc.org/iiif-explorer/](h
 <script src="{{site.baseurl}}/js/index.js"></script>
 
 <script type="text/javascript">
-    var scrollTop = 0;
-    
-    
-    document.body.onscroll = onscroll;
-    
-    function onscroll (){
-      scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      console.log(scrollTop);
-    }
-    window.onbeforeunload = function(e) {
-      console.log(window.scrollY);
-      scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      console.log(scrollTop);
-    };
-    document.body.addEventListener("scroll", onscroll);
     function load() {
       const queryString = window.location.search;
+      var newUrl = window.location.href;
       if (!queryString){
         document.getElementById('search').submit();
+      } else if (queryString != '?query=&sort=atoz'){
+        var addTo = window.location.href.indexOf('#search-academic-repositories') == -1 ? '#search-academic-repositories' : '';
+        if (queryString.indexOf('query') == -1){
+          newUrl = newUrl.replace('?', '?query=&');
+        }
+        if (addTo || newUrl != window.location.href){
+          window.location.href = newUrl + addTo;
+        }
       }
-
-      const urlParams = new URLSearchParams(queryString);
+      
       loadsearchtemplate();
       document.getElementById('spinner').style.display = 'none';
-      document.documentElement.scrollTop = scrollTop;
       }
       window.onload = load;
 </script>
