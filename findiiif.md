@@ -95,7 +95,7 @@ Search any image in ContentDM. [https://researchworks.oclc.org/iiif-explorer/](h
       if (!queryString){
         document.getElementById('search').submit();
       } else if (queryString != '?query=&sort=atoz'){
-        var addTo = window.location.href.indexOf('#search-institutions') == -1 ? '#search-institutions' : '';
+        var addTo = window.location.href.indexOf('#search-academic-repositories') == -1 ? '#search-academic-repositories' : '';
         if (queryString.indexOf('query') == -1){
           newUrl = newUrl.replace('?', '?query=&');
         }
