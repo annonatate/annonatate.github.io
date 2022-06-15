@@ -17,7 +17,9 @@ nav_order: 11
 ## Please feel free to contribute to this page by opening an [issue](https://github.com/dnoneill/annotate/issues/new?assignees=dnoneill&labels=&template=add-resource-to--where-to-find-iiif-.md&title=)
 
 # Tools
+## Browser Extensions
 * [https://github.com/2SC1815J/open-in-iiif-viewer](https://github.com/2SC1815J/open-in-iiif-viewer) is "a Firefox/Chrome extension to open IIIF manifest link in your favorite IIIF viewer".
+* [https://seige.digital/en/detektiiif/](https://seige.digital/en/detektiiif/) "browser extension for Chrome and Firefox that detects IIIF resources in websites. It is possible to collect IIIF manifests in a basket and send them to any compatible IIIF application."
 
 
 # Internet Archive
