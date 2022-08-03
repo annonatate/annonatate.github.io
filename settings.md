@@ -4,10 +4,6 @@ layout: default
 nav_order: 10
 ---
 
-# COMING SOON
-
-- You can enable a number of settings in the application, the options are as follows
-
 ## Viewer
 - options: default, mirador
 - default option: default (Annotorious)
