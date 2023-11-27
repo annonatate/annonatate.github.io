@@ -4,8 +4,9 @@ layout: default
 nav_order: 4
 ---
 
-# Viewing annotations walkthrough
-<video id="video" controls preload="metadata" width="100%">
-   <source src="{{site.baseurl}}/videos/viewing_annotations.mp4" type="video/mp4">
-   <track label="English" kind="subtitles" srclang="en" src="{{site.baseurl}}/videos/viewing_annotations.vtt">
-</video>
+# Viewing annotations
+1. Click on the `Annotations` menu link. Scroll through to view images. The buttons at top can change the view.
+![]({{site.baseurl}}/images/viewing-1.png){:class="helpimage"}
+
+2. Click on the `Search` menu link. Search for an annotation. Tags and creators show up as search facets.
+![]({{site.baseurl}}/images/viewing-2.png){:class="helpimage"}
