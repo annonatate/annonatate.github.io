@@ -1,12 +1,12 @@
 ---
-title: Dropdown on creating annotations
+title: Comment with Purpose widget purpose definitions
 layout: default
-nav_order: 9
+nav_exclude: true
 ---
 
 
-![Purpose screenshot dropdow collapsed]({{site.baseurl}}/purpose1.png)
-![Purpose screenshot dropdow expanded]({{site.baseurl}}/purpose2.png)
+![Purpose screenshot dropdow collapsed]({{site.baseurl}}/images/purpose1.png)
+![Purpose screenshot dropdow expanded]({{site.baseurl}}/images/purpose2.png)
 
 There is a dropdown of purposes. They don't currenlty do much, but in the future they could be used to differentiate the view of the annotation.
 By default `commenting` is the choosen "purpose" and should cover most things. A list of each purpose from the dropdown is listed below with a corresponding description.
