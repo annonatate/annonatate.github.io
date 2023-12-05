@@ -1,7 +1,7 @@
 ---
 title: Finding IIIF images
 layout: default
-nav_order: 11
+nav_order: 20
 ---
 
 

@@ -16,6 +16,7 @@ parent: Workspace Customization
 5. If you set up a [GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) you can create more fine grained user permissions (read, write, admin). If you are using a personal account you can only grant write access.
 
 
-
 # Tips
-* All uploaded images and manifests will get added the `My Images` section on the main page.
+* Read Only access to a workspace only works when you are logged in with a organization account. If you aren't sure if you are logged in via an GitHub organization account, the answer is you probably aren't.
+* Read Only gives the same access as Read/Write if you are logged in with a GitHub user account.
+
