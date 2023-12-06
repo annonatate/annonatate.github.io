@@ -24,11 +24,11 @@ If you are unable to log in properly try one of the following steps to get the a
 ## Delete repository
 
 1. Follow the instructions listed here: [https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/deleting-a-repository](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/deleting-a-repository)
-2. Go to [https://annonatate.herokuapp.com/login](https://annonatate.herokuapp.com/login)
+2. Go to [https://annonatate.fly.dev/login](https://annonatate.fly.dev/login)
 
 ## Enable GitHub Pages
 1. Folow the instructions listed here: [https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-2. Go to [https://annonatate.herokuapp.com/?firstbuild=True](https://annonatate.herokuapp.com/?firstbuild=True)
+2. Go to [https://annonatate.fly.dev/?firstbuild=True](https://annonatate.fly.dev/?firstbuild=True)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Wax integration
 layout: default
-nav_order: 13
+nav_order: 7
 has_children: true
 ---

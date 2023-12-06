@@ -1,9 +1,16 @@
 ---
-title: Inviting Collaborators
+title: Collaborators
 layout: default
 nav_order: 6
 parent: Workspace Customization
 ---
+{: .no_toc }
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 
 ## Invite Collaborators
 1. Click on the workspace name dropdown
@@ -15,6 +22,11 @@ parent: Workspace Customization
 ![]({{site.baseurl}}/images/invite-3.png){:class="helpimage"}
 5. If you set up a [GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) you can create more fine grained user permissions (read, write, admin). If you are using a personal account you can only grant write access.
 
+## Accepting Collaboration Invite
+1. Click on "Switch Workspace" dropdown
+![]({{site.baseurl}}/images/switch-1.png){:class="helpimage"}
+2. Click on the accept button.
+![]({{site.baseurl}}/images/invite-4.png){:class="helpimage"}
 
 # Tips
 * Read Only access to a workspace only works when you are logged in with a organization account. If you aren't sure if you are logged in via an GitHub organization account, the answer is you probably aren't.
