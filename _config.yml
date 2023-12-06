@@ -28,3 +28,5 @@ lunr_settings:
   - boost: 10
     jekyllfields: [notes]
     searchfield: notes
+
+heading_anchors: true
