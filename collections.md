@@ -1,7 +1,7 @@
 ---
 title: Collections
 layout: default
-nav_order: 9
+nav_order: 10
 ---
 # Creating a collection
 **Collections allow you group multiple annotations in a single view.**
